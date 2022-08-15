@@ -49,7 +49,7 @@ function analize(){
     - Prato: ${refeição1}
     - Bebida: ${refeição2}
     - Sobremesa: ${refeição3}
-    Total: ${valorPedido.toFixed(2)}`
+    Total: R$ ${valorPedido.toFixed(2)}`
     let pedidoCod= encodeURIComponent(pedido)
 
     let finalizarPedido= document.querySelector('.finalizar-pedido');
