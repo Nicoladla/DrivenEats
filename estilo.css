@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 92px 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h3{
+    font-family: 'Righteous';
+}
+
+.tela{
+    margin: 0 auto;
+    background-color: #ebe9e9;;
+    width: 414px;
+    height: auto;
+}
+/*Inicio barra do titulo*/
+.barra-titulo{
+    background-color: #CF2B2B;
+    color: white; 
+    width: 414px;
+    height: 92px;
+    padding-left: 21px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.368);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: auto;
+}
+h1{
+    font-size: 44px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    color: #333333;
+    font-size: 26px;
+    margin-left: 16px;
+    margin-bottom: 17px;
+}
+/*Fim barra do titulo*/
+/*Inicio barra de finalizar pedido*/
+.finalizar-pedido{
+    background-color: white;
+    width: 414px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left:auto;
+}
+.finalizar-pedido p{
+    color: white;
+    font-size: 20px;
+    background-color: #CBCBCB;;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Fim barra de finalizar pedido*/
+/*Inicio da seleção de comidas*/
+.pedidos{
+    padding: 31px 0px 16px;
+}
+.pedidos img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 8px;
+}
+.selecionar-pedido{
+    padding: 4px 0px;
+    overflow: auto;
+    display: flex;
+}
+.selecionar-pedido > div{
+    background-color: white;
+    margin-right: 16px;
+    padding: 18px 14px 0px;
+    width: 172px;
+    height: auto;
+    border-radius: 9px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.194);
+}
+.selecionar-pedido div:first-child{
+    margin-left: 16px;
+}
+.descrição-comida h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.descrição-comida p:nth-child(2){
+    color: #A6A6A6;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.preço{
+    margin-bottom: 13px;
+}
+.bebida, .sobremesa{
+    margin-top: 27px;
+}
+/*Fim da seleção de comidas*/
