@@ -24,8 +24,8 @@
             <div class="pedidos">
                 <div class="prato">
                     <h3>Primeiro, seu prato</h3>
-                    <div class="selecionar-pedido">
-                        <div>
+                    <div class="selecionar-pedido" onclick="analize()">
+                        <div onclick="prato(this, 'Frongo DoBom', 20.00)">
                             <img src="imagens/prato.jpeg" alt="Frango">
                             <div class="descrição-comida">
                                 <h4>Frongo DoBom</h4>
@@ -36,7 +36,7 @@
                                 <p class="preço">R$ 20,00</p>
                             </div>
                         </div>
-                        <div>
+                        <div onclick="prato(this, 'Frongo SáBom', 10.00)">
                             <img src="imagens/prato.jpeg" alt="Frango">
                             <div class="descrição-comida">
                                 <h4>Frongo SáBom</h4>
@@ -47,7 +47,7 @@
                                 <p class="preço">R$ 10,00</p>
                             </div>
                         </div>
-                        <div>
+                        <div onclick="prato(this, 'Frongo PiBom', 15.00)">
                             <img src="imagens/prato.jpeg" alt="Frango">
                             <div class="descrição-comida">
                                 <h4>Frongo PiBom</h4>
@@ -62,8 +62,8 @@
                 </div>
                 <div class="bebida">
                     <h3>Agora, sua bebida</h3>
-                    <div class="selecionar-pedido">
-                        <div>
+                    <div class="selecionar-pedido" onclick="analize()">
+                        <div onclick="bebida(this, 'Coca-cola 2L', 9.99)">
                             <img src="imagens/coca-cola.jpeg" alt="bebida">
                             <div class="descrição-comida">
                                 <h4>Coca-cola</h4>
@@ -71,7 +71,7 @@
                                 <p class="preço">R$ 9,99</p>
                             </div>
                         </div>
-                        <div>
+                        <div onclick="bebida(this, 'Coca-cola 1L', 7.00)">
                             <img src="imagens/coca-cola.jpeg" alt="bebida">
                             <div class="descrição-comida">
                                 <h4>Coca-cola</h4>
@@ -79,7 +79,7 @@
                                 <p class="preço">R$ 7,00</p>
                             </div>
                         </div>
-                        <div>
+                        <div onclick="bebida(this, 'Coca-cola 500ml', 5.10)">
                             <img src="imagens/coca-cola.jpeg" alt="bebida">
                             <div class="descrição-comida">
                                 <h4>Coca-cola</h4>
@@ -91,8 +91,8 @@
                 </div>
                 <div class="sobremesa">
                     <h3>Por fim, sua sobremesa</h3>
-                    <div class="selecionar-pedido">
-                        <div>
+                    <div class="selecionar-pedido" onclick="analize()">
+                        <div onclick="sobremesa(this, 'Pudim 700g', 10.00)">
                             <img src="imagens/sobremesa.jpeg" alt="Pudim">
                             <div class="descrição-comida">
                                 <h4>Pudim</h4>
@@ -100,7 +100,7 @@
                                 <p class="preço">R$ 10,00</p>
                             </div>
                         </div>
-                        <div>
+                        <div onclick="sobremesa(this, 'Pudim 500g', 6.99)">
                             <img src="imagens/sobremesa.jpeg" alt="Pudim">
                             <div class="descrição-comida">
                                 <h4>Pudim</h4>
@@ -108,7 +108,7 @@
                                 <p class="preço">R$ 6,99</p>
                             </div>
                         </div>
-                        <div>
+                        <div onclick="sobremesa(this, 'Pudim 200g', 2.40)">
                             <img src="imagens/sobremesa.jpeg" alt="Pudim">
                             <div class="descrição-comida">
                                 <h4>Pudim</h4>
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="finalizar-pedido">
-                    <p>Selecione os 3 itens <br>
+                    <p class="cinza">Selecione os 3 itens <br>
                         para fechar o pedido
                     </p>
             </div>
