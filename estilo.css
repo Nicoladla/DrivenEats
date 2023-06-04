@@ -6,10 +6,6 @@ h1, h3{
     font-family: 'Righteous';
 }
 
-*{
-    box-sizing: border-box;
-}
-
 .tela{
     margin: 0 auto;
     background-color: #ebe9e9;;
