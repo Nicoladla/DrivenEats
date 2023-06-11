@@ -1,6 +1,6 @@
 # Globo.com
 
-Esse é uma site de delivery criada para aquelas pessoas que amam uma refeição fácil e acessível.
+Esse é um site de delivery criado para aquelas pessoas que amam uma refeição fácil e acessível.
 
 Nessa aplicação, é possível selecionar as refeições de sua preferência e por fim finalizar o pedido. Após finalizar o pedido o usuário será redirecionado para o WhatsApp onde poderá enviar o pedido.
 
