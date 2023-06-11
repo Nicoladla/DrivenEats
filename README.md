@@ -2,7 +2,7 @@
 
 Esse é um site de delivery criado para aquelas pessoas que amam uma refeição fácil e acessível.
 
-Nessa aplicação, é possível selecionar as refeições de sua preferência e por fim finalizar o pedido. Após finalizar o pedido o usuário será redirecionado para o WhatsApp onde poderá enviar o pedido.
+Nessa aplicação, é possível selecionar as refeições de sua preferência e por fim finalizar o pedido. Após finalizar o pedido o usuário será redirecionado para o WhatsApp onde poderá enviar o pedido e saber qual é o valor total a ser pago.
 
 ---
 
