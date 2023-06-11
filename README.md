@@ -1,4 +1,4 @@
-# Globo.com
+# DrivenEats
 
 Esse é um site de delivery criado para aquelas pessoas que amam uma refeição fácil e acessível.
 
